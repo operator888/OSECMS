@@ -1,0 +1,22 @@
+{
+    "name": "operator888/osecms",
+    "description": "Educational CMS in PHP made from scratch",
+    "require": {
+        "twig/twig": "^2.9",
+        "php": "^7.0.33",
+        "composer/composer": "^1.8"
+    },
+    "license": "GNU GPL3",
+    "authors": [
+        {
+            "name": "Theodor Dimitriou",
+            "email": "nim888@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "OSECMS\\": ["src/"]},
+        "Vendor\\Namespace\\" : "vendor/"
+        }
+    }
+
+
