@@ -6,7 +6,6 @@
         "php": "^7.0.33",
         "composer/composer": "^1.8"
     },
-    "license": "GNU GPL3",
     "authors": [
         {
             "name": "Theodor Dimitriou",
@@ -14,8 +13,7 @@
         }
     ],
     "autoload": {
-        "psr-4": { "OSECMS\\": ["src/"]},
-        "Vendor\\Namespace\\" : "vendor/"
+        "psr-4": { "OSECMS\\": ["src/", "vendor/", "src/Controller/", "src/Model"]}
         }
     }
 
