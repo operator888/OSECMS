@@ -2,4 +2,4 @@
 
 namespace OSECMS\index;
 
-echo "foo";
+echo "Requested URL = " . $_SERVER['QUERY_STRING'] . "";
